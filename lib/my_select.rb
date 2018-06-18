@@ -1,15 +1,15 @@
 
 def my_select(collection)
- results_array = []
+ Results_array = []
  if block_given?
    i = 0 
    while i < collection.length 
-      results_array.push yield collection[i] 
+      Results_array.push yield collection[i] 
       i += 1 
     end
    # if collection[i] == TRUE
       
-    results_array
+    Results_array
   else
     "No block_given"
   end
