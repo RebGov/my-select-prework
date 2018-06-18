@@ -5,11 +5,8 @@ def my_select(collection)
    i = 0 
    while i < collection.length 
      if yield collection[i] 
-    #results_array.push yield collection[i] 
-      i += 1 
+        i += 1 
     end
-   # if collection[i] == TRUE
-      
     results_array
   else
     "No block_given"
