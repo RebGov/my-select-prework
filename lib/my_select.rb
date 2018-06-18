@@ -6,8 +6,8 @@ def my_select(collection)
    while i < collection.length 
      if yield collection[i] 
        results_array << collection[i]
-        i += 1 
       end
+      i +=
     end
     results_array
   else
