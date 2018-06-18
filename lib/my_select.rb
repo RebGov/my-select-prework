@@ -23,16 +23,3 @@ my_select(numbers) do |num|
   puts num
 end
 
-=begin
-class Array
-  def keep_evens
-    results_array = []
-    for num in self
-      results_array << num if num % 2 == 0
-    end
-    return results_array
-  end
-end
-collection = []
-collection = array.keep_evens
-=end
