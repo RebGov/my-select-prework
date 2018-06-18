@@ -4,7 +4,7 @@ def my_select(collection)
  if block_given?
    i = 0 
    while i < collection.length 
-     if i 
+     if yield collection[i] 
     #results_array.push yield collection[i] 
       i += 1 
     end
@@ -17,7 +17,6 @@ def my_select(collection)
 end
 
 numbers = [1,2,3,4,5]
-
 
 my_select(numbers) do |num|
   num % 2 == 0
