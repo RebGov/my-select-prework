@@ -19,7 +19,7 @@ numbers = [1,2,3,4,5]
 
 
 my_select(numbers) do |num|
-  num if num % 2 == 0 
+  num if num % 2 == 0 puts num
 end
 
 =begin
